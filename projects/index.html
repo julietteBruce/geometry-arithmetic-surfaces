@@ -1,0 +1,221 @@
+---
+layout: default
+title: Projects
+research: active
+description: M2@UW Projects
+---
+<div class="container">
+<h3> Project List:</h3> The following projects have been proposed to be worked on during the workshop.
+More projects may be added at a later date. If you are interested in leading a project group please <a href="/M2-Wisconsin-2018/contact/">contact the organizers!</a></p>
+
+
+<div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        <b>Schur Functors of Complexes</b></a>
+      </h4>
+    </div>
+    <div id="collapse1" class="panel-collapse collapse">
+<div class="panel-body">This project will be organized
+by <a href="http://www.math.wisc.edu/~svs/">Steven Sam</a>.  In 2016, Mark Walker proved the weak
+Buchsbaum-Eisenbud-Horrocks Conjecture by incorporating Adams operations
+on chain complexes [1]. This proof underscored the
+significance of allowing functorial operations on chain complexes, and
+it led to the development of the Macaulay2 package
+ChainComplexOperations by David Eisenbud, which implemented functions
+for computing \(\bigwedge^2\) and \(\text{Sym}_2\) of chain complexes. This
+project will significantly expand this line of thinking by allowing one
+to apply a  Schur functors \(\textbf{S}_{\lambda}\) to a chain complex. Beyond
+the connection with Walker's groundbreaking work, these operations are
+fundamental in homological commutative algebra. This will further
+strengthen Macaulay2's already impressive computational tools in
+homological commutative aglebra.
+<br>
+<br>
+<b>References</b>
+<ol>
+<li>
+Mark Walker, <i>Total Betti numbers of modules of finite projective dimension</i>, Ann. of Math. (2) <b>186</b>
+(2017), no. 2, 641-646. MR3702675 <a href="http://annals.math.princeton.edu/2017/186-2/p06">doi:10.4007/annals.2017.186.2.6</a>
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+<b>Computing with FI-modules</b></a>
+      </h4>
+    </div>
+    <div id="collapse2" class="panel-collapse collapse">
+      <div class="panel-body">
+This project will be organized by
+<a href="https://sites.google.com/wisc.edu/jwg/home">John Wiltshire-Gordon</a>
+. FI-modules have become objects of interest in
+recent years, with applications to representation stability (see
+[1,2,3,4,5] to name a few recent
+publications).  This project aims to produce the first algorithms for
+computing with FI-modules. An FI-module may be described by an
+FI-matrix over the cateogry \(\text{FI}\).  This project will
+implement two basic operations on FI-matrices: finding generators for
+kernels, and solving the equation \(AX=B\). These operations can be used
+to compute \(\text{Tor}\) for FI-modules, and also Hilbert series, and those
+will be implemented as well. The algorithm over \(\mathbb Q\) relies on
+the quiver computation of Sam-Snowden, and the algorithm over \(\mathbb
+Z\) relies on the Castelnuovo-Mumford regularity result of
+Church-Ellenberg [1]. This package will allow
+researchers to begin experimenting with FI-modules, with the hope of
+finding further generalizations of results like Church-Ellenberg's
+regularity result.
+<br>
+<br>
+<b>References</b>
+<ol>
+<li>
+Thomas Church and Jordan S. Ellenberg, <i>Homology of FI-modules</i>, Geom. Topol. <b>21</b> (2017), no. 4, 2373–2418. MR3654111
+<a href="https://projecteuclid.org/euclid.gt/1508437644">doi:10.2140/gt.2017.21.2373</a>.
+</li>
+<li>
+Thomas Church, Jordan S. Ellenberg, and Benson Farb, <i>FI-modules and stability for representations of symmetric groups</i>, Duke Math. J. <b>164</b> (2015), no. 9, 1833–1910. MR3357185
+<a href="https://projecteuclid.org/euclid.dmj/1434377462">doi:10.1215/00127094-3120274</a>.
+</li>
+<li>
+Thomas Church, Jordan S. Ellenberg, Benson Farb, and Rohit Nagpal, <i>FI-modules over Noetherian rings</i>, Geom. Topol. <b>18</b> (2014), no. 5, 2951–2984. MR3285226 
+<a href="https://msp.org/gt/2014/18-5/p06.xhtml">doi:10.2140/gt.2014.18.2951</a>.
+</li>
+<li>
+Rita Jim&eacute;nez Rolland, <i>The cohomology of \(\mathcal{M}_{0,n}\) as an FI-module</i>, Configuration spaces, Springer INdAM Ser., vol. 14, Springer, [Cham], 2016, pp. 313–323. MR3615738
+<a href="https://link.springer.com/chapter/10.1007/978-3-319-31580-5_13">doi:10.1007/978.3.319.31580</a>.
+</li>
+<li>
+Jennifer C. H. Wilson, <i>FIW-modules and constraints on classical Weyl group characters</i>, Math. Z. <b>281</b> (2015), no. 1-2, 1–42. MR3384861
+<a href="https://link.springer.com/article/10.1007/s00209-015-1473-0">doi:10.1007/s00209.015.1473.0</a>.
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><b>Algebraic Kakeya Problems</b></a>
+      </h4>
+    </div>
+    <div id="collapse3" class="panel-collapse collapse">
+      <div class="panel-body">  This project will develop code for performing computations related to algebraic Kakeya problems over finite fields, including: sum-sets, slice rank, and the degeneration techniques of Ellenberg-Erman.</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+<b>Random Monomial Ideals</b></a>
+      </h4>
+    </div>
+    <div id="collapse4" class="panel-collapse collapse">
+      <div class="panel-body">  This project will be organized by
+<a href="https://www.math.ucdavis.edu/~lsilver/">Lily Silverstein</a>, <a href="http://mypages.iit.edu/~dwilburn/">Dane Wilburne</a>,
+ and <a href="https://www.math.wisc.edu/~yangjay/">Jay Yang</a>.
+  Two separate groups
+produced recent work on models for random monomial
+ideals [1,2]. A current collaborative effort of these
+two groups aims to better understand critical region phenomena between
+the dimension jumps in the model of [1]. Early experiments
+suggest that, in the limit, the ideals in these critical regions behave
+like analogues of fractals, and that we should think of limiting
+dimension as being somewhere strictly between two integers. To better
+understand this phenomena, and to open the door for further
+experimentation of other groups of researchers, this project will
+develop a package around the random monomial ideals of [1]. 
+The basic functionality has already been implemented, so this package
+will be primarily interested in producing a framework for experimenting
+with these ideals.
+<br>
+<br>
+<b>References</b>
+<ol>
+<li>
+Jes&uacute;s A. De Loera, Sonja Petrov&iacute;c, Lily Silverstein, Despina Stasi, and Dane Wilburne, 
+<i>Random Monomial Ideals</i>. <a href="https://arxiv.org/abs/1701.07130">arXiv:1701.07130</a>.
+</li>
+<li>
+Daniel Erman and Jay Yang, <i> Random flag complexes and asymptotic syzygies.</i> <a href="https://arxiv.org/abs/1706.01488">arXiv:1706.01488</a>.
+</li>
+</ol></div>
+    </div>
+</div>
+  
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+<b>Points Package</b></a>
+      </h4>
+    </div>
+    <div id="collapse5" class="panel-collapse collapse">
+      <div class="panel-body">The <a href="http://www2.macaulay2.com/Macaulay2/doc/Macaulay2-1.10/share/doc/Macaulay2/Points/html/">Points package</a> is an
+      existing M2 package routines useful for studying points in affine and projective spaces. The goal of this project is to extend
+      functionality to the Points package in two different directions. 
+       The first involves extending the currents functionalities of the
+      package, especially the creation of random sets of points, to any
+      normal toric variety.  The second goal would allow one to specify
+      multiplicities at the various points (e.g. allowing random sets of
+      “fat points”).</div>
+</div>
+</div>
+
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse6"><b>Virtual Resolutions</b></a>
+      </h4>
+    </div>
+    <div id="collapse6" class="panel-collapse collapse">
+      <div class="panel-body">  This project will develop code for
+      working with virtual resolutions, as defined in the <a href="https://arxiv.org/abs/1703.07631">recent paper</a>
+      of Berkesch Zamaere-Erman-Smith. This will also include adding
+      functionality for better displaying multigraded Betti tables.</div>
+</div>
+</div>
+
+
+</div>
+
+
+<!-- 
+<p>The following individuals have expressed interested in leading project groups during the workshop:
+
+<ul>
+	<li><a href="http://www-users.math.umn.edu/~cberkesc/">Christine Berkesch Zamaere</a> - <i>University of Minnesota</i></li>
+	<li><a href="https://juliettebruce.github.io">Juliette Bruce</a> - <i>University of Wisconsin</i></li>
+	<li><a href="http://www.math.wisc.edu/~ellenber/">Jordan Ellenberg</a> - <i>University of Wisconsin</i></li>
+	<li><a href="http://www.math.wisc.edu/~derman/">Daniel Erman</a> - <i>University of Wisconsin</i></li>
+	<li><a href="http://users.rider.edu/~jmccullough/">Jason McCullough</a> - <i>Iowa State University</i></li>
+	<li><a href="https://www3.nd.edu/~craicu/">Claudiu Raicu</a> - <i>University of Notre Dame</i></li>
+	<li><a href="http://www.math.wisc.edu/~svs/">Steven Sam</a> - <i>University of Wisconsin</i></li>
+	<li><a href="http://kftucker.people.uic.edu">Kevin Tucker</a> - <i>University of Illinois - Chicago</i></li>
+	<li>John Wiltshire-Gordon - <i>University of Wisconsin</i></li>
+</ul>
+
+<!~~ 
+<h5>Group II</h5>
+<ul>
+	<li><a href="http://www.math.utah.edu/~boocher/">Adam Boocher</a> - <i>University of Utah</i></li>
+	<li><a href="https://people.math.osu.edu/cueto.5/">Mar&iacute;a Ang&eacute;lica Cueto</a> - <i>The Ohio State University</i></li>
+	<li><a href="https://www.math.ku.edu/u/hernandez/">Daniel Hern&aacute;ndez</a> - <i>University of Kansas</i></li>
+	<li><a href="http://www-users.math.umn.edu/~reiner/">Vic Reiner</a> - <i>University of Minnesota</i></li>
+	<li><a href="https://www.math.utah.edu/~schwede/">Karl Schwede</a> - <i>University of Utah</i></li>
+	<li><a href="https://www.math.ku.edu/~e818w652/">Emily Witt</a> - <i>University of Kansas</i></li>
+	
+	
+ ~~>
+ -->
+</div>
