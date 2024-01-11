@@ -18,7 +18,7 @@ GEM
     ffi (1.9.24)
     gemoji (1.5.0)
     github-pages (18)
-      RedCloth (= 4.3.0)
+      RedCloth (= 4.3.3)
       jekyll (= 3.6.3)
       jekyll-mentions (= 0.0.6)
       jekyll-redirect-from (= 0.3.1)
